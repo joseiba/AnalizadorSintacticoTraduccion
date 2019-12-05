@@ -368,7 +368,7 @@ void attValue(int sincro[], int tam){
 int main(int argc,char* args[]){
 
     if(argc > 1){
-        if (!(archivo=fopen(args[1],"rt"))){
+        if (!(fuente=fopen(args[1],"rt"))){
             printf("Archivo no encontrado.\n");
             exit(1);
         }
@@ -377,7 +377,7 @@ int main(int argc,char* args[]){
         if (aceptar == 1) {
             printf("El fuente es sintacticamente correcto\n");
         }
-        fclose(archivo);
+        fclose(fuente);
     }
     else{
         printf("Debe pasar como parametro el path al archivo fuente.\n");
