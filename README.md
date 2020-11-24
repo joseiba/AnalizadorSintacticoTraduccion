@@ -1,9 +1,7 @@
-# Tarea-2-y-3
-Analizador Sintactico y Traducción
+# Analizador Sintactico y Traducción
 
-Autores:
--José Ibañez
--Javier Paredes
+Ambiente de Desarrollo
+-Lenguaje de Programación C
 
 Para compilar: gcc traduccion.c -o traduccion
 Para ejecutar: ./traduccion fuente.txt
